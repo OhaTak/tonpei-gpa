@@ -33,7 +33,7 @@ $(function() {
     }
 
     for (let j = 0; j < elems.length; j++) {
-      if (elems[j].length == 8) {
+      if (elems[j].length == 8 && elems[j][1] != ('担当教員')) {
         let year = elems[j][6];
         let term = elems[j][7];
         let semester = year + ' ' + term;
